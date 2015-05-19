@@ -1,9 +1,11 @@
 body {
 	text-align: center;
-	font-family: 'Sansita One';
-	color: #ccc;
-	text-shadow: 0 1px 0 #222;
-	background: #999;
+/*	font-size: 1.3em;
+	line-height: 1.5em;*/
+}
+
+input {
+	font-size: 1.3em;
 }
 
 #memory_board {
@@ -14,12 +16,12 @@ body {
 	margin: 0 auto;
 }
 
-div#memory_board > div{
-	background: url(../images/default.png) no-repeat;
+div#memory_board > .card{
+	background: url(../images/default.png) no-repeat top;
 	background-size: contain;  /*make background image fit into its container*/
 	border:#000 1px solid;
-	width:71px;
-	height:71px;
+	width:128px;
+	height:128px;
 	float:left;
 	margin:10px;
 	padding:20px;
@@ -30,8 +32,8 @@ div#memory_board > div{
 }
 
 div#memory_board > div > img {
-	width: 111px;
-  	height: 111px;
+	width: 128px;
+  	height: 128px;
   	position: absolute;
   	left: 0;
   	top: 0;

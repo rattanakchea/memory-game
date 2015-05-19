@@ -7,12 +7,12 @@ Memory Game is fun pairing game in which the goal is to find the matching pair o
 
 
 #pseudo code
-. Read data into an javascript array (data)
-. popular the div#game with pair of data from data array
-. Listen on click event for each card
+*Read data into an javascript array (data)
+*popular the div#game with pair of data from data array
+*Listen on click event for each card
 
 
 ## Game Logic
-. Total number of cards: 10 pairs
-. Flip the card
-. Check if the card match
+-Total number of cards: 10 pairs
+-Flip the card
+-Check if the card match
